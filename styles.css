@@ -1,0 +1,191 @@
+*{
+    font-family: Hanken Grotesk;
+    
+}
+#body{
+    width: 1440px;
+}
+#card1{
+    text-align: center;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 35px;
+    width: 325px;
+    height: 450px;
+    padding-top: 10px;
+    color:white;
+}
+
+#result{
+    font-size: 25px;
+    color:rgba(255, 255, 255, 0.733)
+}
+
+#cardball{
+    margin-top: 25px;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+
+#cardball h1{
+    font-size: 60px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+#cardball p{
+    margin: auto;
+    color:rgba(255, 255, 255, 0.733);
+}
+
+#scored{
+    color:rgba(255, 255, 255, 0.733);
+}
+
+#card2{
+    border-radius: 20px;
+    background-color: hsl(221, 100%, 96%);
+    width: 325px;
+    height: 450px;
+    text-align: center;
+}
+
+#react{
+    color:hsl(0, 100%, 67%);
+
+}
+
+
+#mem{
+    color: hsl(39, 100%, 56%);
+    
+}
+
+#verb{
+    color:hsl(166, 100%, 37%);
+}
+
+#visu{
+   color:hsl(234, 85%, 45%);
+}
+
+#reaction{
+    border-radius: 10px;
+    background-color: hsl(0, 100%, 67%, 0.2);
+    width: 285px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+#react2{
+    margin-left: 110px;
+    color:hsl(224, 30%, 27%);
+}
+
+#reaction img{
+    margin-right:10px ;
+    margin-left: 10px;
+}
+
+#memory{
+    border-radius: 10px;
+    background-color: hsl(39, 100%, 56%, 0.2);
+    width: 285px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+#mem2{
+    margin-left: 110px;
+    color:hsl(224, 30%, 27%);
+}
+
+#memory img{
+    margin-right:10px ;
+    margin-left: 10px;
+}
+
+#verbal{
+    border-radius: 10px;
+    background-color: hsl(166, 100%, 37%, 0.2);
+    width: 285px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+#verb2{
+    margin-left: 125px;
+    color:hsl(224, 30%, 27%);
+}
+
+#verbal img{
+    margin-right:10px ;
+    margin-left: 10px;
+}
+
+#visual{
+    border-radius: 10px;
+    background-color: hsla(234, 85%, 45%, 0.2);
+    width: 285px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+
+#visu2{
+    margin-left: 135px;
+    color:hsl(224, 30%, 27%);
+}
+
+#visual img{
+    margin-right:10px ;
+    margin-left: 10px;
+}
+
+#btn{
+    background-color:  hsl(234, 100%, 10%);
+    width: 285px;
+    height: 50px;
+    border-radius: 50px;
+    color:white;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+#card2 h1{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 45px;
+    padding-top: 10px;
+}
+
+#everything{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 200px;
+}
+
+@media (max-width: 768px){
+    body{
+      display: block;
+    }
+    #everything{
+        display:block;
+        padding-left: 0px;
+    }}
